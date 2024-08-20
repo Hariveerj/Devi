@@ -2,7 +2,6 @@ pipeline {
     agent any
 
     stages {
-
         stage('Make Changes') {
             steps {
                 script {
