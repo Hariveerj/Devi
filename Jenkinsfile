@@ -5,12 +5,12 @@ pipeline {
         stage('Make Changes') {
             steps {
                 script {
-                    sh 'echo " one more info" >> README.md'
+                    sh 'echo " one more info" >> Jenkinsfile'
                 }
             }
         }
 
-        stage('git init') {    #gbgbgngbgnhnhbhnhn
+        stage('git init') {   
             steps {
                 sh 'git init'
             }
