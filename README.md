@@ -1,1 +1,1 @@
-# adding some information every time when it build
+# adding some information every time when it buildd
