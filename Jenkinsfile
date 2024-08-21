@@ -5,7 +5,7 @@ pipeline {
         stage('Make Changes') {
             steps {
                 script {
-                    sh 'echo " one the o" >> Jenkinsfile'
+                    sh 'echo " one the " >> Jenkinsfile'
                 }
             }
         }
