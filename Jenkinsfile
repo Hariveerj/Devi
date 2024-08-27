@@ -5,7 +5,7 @@ pipeline {
         stage('Make Changes') {
             steps {
                 script {
-                    sh 'echo " name " >> Jenkinsfile'
+                    sh 'echo " naming " >> Jenkinsfile'
                 }
             }
         }
