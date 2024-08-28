@@ -14,7 +14,7 @@ pipeline {
                 sh 'git init'
             }
         }
-        
+    
         stage('git add') {
             steps {
                 sh 'git add .'
