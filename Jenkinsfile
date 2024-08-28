@@ -9,7 +9,6 @@ pipeline {
                 }
             }
         }
-
         stage('git init') {   
             steps {
                 sh 'git init'
