@@ -7,7 +7,6 @@ pipeline {
                     sh 'echo " the nam " >> Jenkinsfile'
                 }
             }
-        }
         stage('git init') {   
             steps {
                 sh 'git init'
