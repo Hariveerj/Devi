@@ -4,7 +4,6 @@ pipeline {
    stages {
         stage('Make Changes') {
             steps {
-                script {
                     sh 'echo " the nam " >> Jenkinsfile'
                 }
             }
